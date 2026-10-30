@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF3E0"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/navInicio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Inicio"
+        android:textColor="#F28C00"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/navProductos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Productos"
+        android:textColor="#F28C00"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/navDetalle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Detalle"
+        android:textColor="#F28C00"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/navReporte"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Reportes"
+        android:textColor="#F28C00"
+        android:textStyle="bold" />
+</LinearLayout>
